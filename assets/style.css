@@ -1,0 +1,47 @@
+.st-emotion-cache-j5r0tf {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #7E99AB;
+}
+
+.diagnosis {
+    margin: 10px 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    font-weight: bold;
+    background-color: #00796B;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.diagnosis.benign {
+    background-color: #01db4b;
+}
+
+.diagnosis.malicious {
+    background-color: #ff4b4b;
+}
+
+.probability-box {
+    margin: 10px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.probability-box.benign {
+    background-color: #E0F7FA;
+    color: #00796B;
+}
+
+.probability-box.malicious {
+    background-color: #FFEBEE;
+    color: #C62828;
+}
